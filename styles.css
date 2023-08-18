@@ -1,0 +1,265 @@
+
+html {  
+    box-sizing: border-box; 
+    font-size: 62.5%;
+    --header_height: 10vh;
+    
+    }
+
+*{
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1488867605300-0380106bc701?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=673&q=80);
+    background-size: cover;
+
+    
+}
+
+#header {
+    position: fixed;
+    display: inline;
+    width: 100%;
+    height: var(--header_height);
+    border-bottom: 5px solid plum;
+    z-index: 999;
+    background: linear-gradient(90deg,
+    #4E4A59 5%,
+    #E8D7FF 35%,
+    #FFD3E8 55%,
+    #FFD7D5 70%,
+    #4E4A59 95%);
+    
+}
+
+h1 {
+    position: absolute;
+    top: 170px;
+    left: 1vw;
+    z-index: 995;
+    font-family: 'Borel', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#header-img {
+    float:left;
+    position: absolute;
+    
+    
+}
+
+
+#header-img {
+    object-fit: cover;
+    z-index: 990;
+    border: solid 1px transparent;
+    border-radius: 50%;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    height: 100%;
+    
+
+}
+#nav-bar {
+    font-size: 1em;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    color: lemonchiffon;
+}
+
+nav a {
+    text-decoration: none;    
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 1.5em;
+    padding: 4px 10px;
+    font-weight: bold; 
+    color: lemonchiffon;
+    background-color:#4E4A59;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.75);
+    
+    
+}
+
+nav li {
+    list-style-type: none;
+}
+
+
+
+main {
+    position: absolute;
+    top: 1em;
+    margin: 7.5vw;
+    border: 5px solid plum;
+    border-radius: 25px;
+    background: radial-gradient(
+        circle farthest-corner at top left,
+        white,
+        white 2.5%,
+        #E8D7FF 15%,
+        #FFD3E8 25%,
+        #FFD7D5 40%
+      );
+    
+    
+    
+}
+
+h2 {
+    font-family: 'Borel', cursive;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+#wisdom{
+    text-align: center;
+    font-family: 'Borel', cursive;
+    font-size: 2em;
+    vertical-align: middle;
+    
+    padding-left: 1vw;
+    padding-top: 2vh;
+    
+}
+
+section p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 80%
+
+}
+
+br {
+    margin: 2px auto;
+}
+
+iframe {
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+hr {
+    border-top: 5px solid plum;
+    width: 60%;
+}
+
+form {
+    width: 40%;
+    margin: 3vh auto;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80);
+    background-size: cover;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.75);
+    
+}
+
+form legend{
+    text-align: left;
+    font-family: 'Borel', cursive;
+    color:blue;
+}
+
+input {   
+    text-align: center;
+    
+}
+
+#form_title {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+fieldset {
+    margin: 5px 0px;
+    border-color: transparent;
+}
+
+select, input[type="checkbox"] {
+
+    font-size: 0.75em;
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+    
+
+}
+
+input[type="radio"] {
+
+    font-size: 0.75em;
+    margin-left: 5px !important;
+    
+
+}
+
+input[type="email"] {
+    width: 50%;
+    font-size: 0.75em;
+}
+
+input[type="submit"] {
+    
+    width: 25%;
+    font-size: 0.75em;
+}
+
+#gallery-section ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gallery-section img {
+    object-fit: cover;
+    max-width: 500px;
+    max-height: 500px;
+    padding: -1px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 15px;
+
+
+}
+
+/* 
+strong {
+    font-family: 'Borel', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+} */

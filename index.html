@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HappyFarm</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Quicksand&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <header id="header">
+            
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-link">
+                        <a href="#logo">The Happy Farm</a>
+                    </li>
+                    <li class="nav-link"> 
+                        <a href="#video-section">Happy trainer guide</a>
+                    </li>
+                    <li class="nav-link"> 
+                        <a href="#form-section">Adoption form</a>
+                    </li>
+                    <li class="nav-link"> 
+                        <a href="#gallery-section">Candy-eye</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            
+        </header>
+
+        <main>
+            <section id="logo">
+                <img id="header-img" src="https://static.vecteezy.com/system/resources/thumbnails/022/932/250/small/pomeranian-face-silhouette-dog-face-black-and-white-pomeranian-vector.jpg" alt="logo representing a pomeranian dog.">
+                <h1> The Happy Farm</h1>                 
+            </section>
+
+            <p id="wisdom"> People say you can't buy love nor happiness ? 
+                <br> They don't know about pomeranians !</p>               
+            
+                <hr>
+            
+
+            <section id="introduction">
+                <h2>The Happy Farm</h2>
+                <p>A happy and healthy dog is our number one priority.<br> We work hand-to-hand with the most responsible farmers. Those who truly love and respect the animals.<br> We garantee cute, healthy, and authentics pomeranians !</p>
+            </section>
+
+            <hr>
+
+            <section id="video-section">
+                <h2>A few things you should know.</h2>
+                <p>Pomeranians are quite demanding. It is important to understand their needs. <br> If your love for them is new, here is a short recap for you.</p>
+                <iframe width="720" height="405" src="https://www.youtube.com/embed/Rb86dAg37NY" title="Le Spitz nain (loulou de Poméranie) | Magazine zooplus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </section>
+
+            <hr>
+
+            <section id="form-section">
+                <h2>Adoption form.</h2>
+                <p>We can only provide a limited quantity of pomeranians. <br> Please kindly fill-in the adoption form below. <br> This is the first step to meet your new best friend !</p>
+                
+                <form id="form" method="get" action="https://www.freecodecamp.com/email-submit">
+                    
+                    <fieldset>
+                        <legend id="form_title">Let us know your preferences.</legend>
+                        <fieldset>
+                        <legend>Male or Female.</legend>
+                        <label for="sexe" id="sexe">Sexe
+                            <select name="sexe" id="sexe">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="any" selected>Any</option>
+                            </select>
+                        </label>
+                        </fieldset>
+
+                        <fieldset id="color">
+                        <legend>Coat colors</legend>
+                        <label for="color" id="color"> Black
+                            <input type="checkbox" name="color" value="black">
+                        </label> 
+                        <label for="color" id="color"> White
+                            <input type="checkbox" name="color" value="white">
+                        </label>
+                        <label for="color" id="color"> Orange
+                            <input type="checkbox" name="color" value="orange">
+                        </label><br>
+                        <label for="color" id="color"> Chocolate
+                            <input type="checkbox" name="color" value="chocolate">
+                        </label>
+                        <label for="color" id="color"> Cream
+                            <input type="checkbox" name="color" value="cream">
+                        </label>
+                        <label for="color" id="color"> Lavender
+                            <input type="checkbox" name="color" value="lavender">
+                        </label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>How old would you like your pom'?</legend>
+                            <label for="age" id="age"> Baby-pom'
+                                <input type="radio" name="age" value="baby">
+                            </label><br>
+                            <label for="age" id="age"> Young-pom'
+                                <input type="radio" name="age" value="young">
+                            </label><br>
+                            <label for="age" id="age"> Adult-pom'
+                                <input type="radio" name="age" value="adult">
+                            </label>
+                            
+                            
+                        </fieldset>
+                        <fieldset>
+                            <legend>Do you have experience with dogs?</legend>                            
+                            <label for="experience" id="experience"> Yes !
+                                <input type="radio" name="experience" value="Yes">
+                            </label><br>
+                            <label for="experience" id="experience"> Kinda ...
+                                <input type="radio" name="experience" value="kinda">
+                            </label><br>
+                            <label for="experience" id="experience"> No .
+                                <input type="radio" name="experience" value="no">
+                            </label>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend> Your email address</legend>
+                            <input id="email" type="email" placeholder="poupoupou@gmail.com" required>
+                            <input id="submit" type="submit" value="Send">
+                        </fieldset>
+                    </fieldset>
+                        
+                        
+
+                        
+                    
+                </form>
+
+            </section>
+
+            <hr>
+
+            <section id="gallery-section">
+                <h2>Candy-eye gallery.</h2>
+                <p>Maybe you are still undecided, feel free to take a look at our little friends photos.</p>
+                <ul>
+                    <img src="https://images.unsplash.com/photo-1626211596179-d1fe8beaf75c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=709&q=80" alt="a cute puppy">
+                    <img src="https://images.unsplash.com/photo-1576873601863-9c7af0b0b65b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="a cute dog in a towel">
+                    <img src="https://images.unsplash.com/photo-1666188573104-38f31ae50248?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80" alt="a cute dog waiting for its croissant">
+                    <img src="https://images.unsplash.com/photo-1627290991293-77c2ffefd8ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="a cute dog behind a fence">                  
+                    
+                    <img src="https://images.unsplash.com/photo-1628953025341-5f80c703d3a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="a cute dog in the snow">
+                    <img src="https://images.unsplash.com/photo-1592028616810-88480a45e406?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="a cute dog with a skirt">                    
+                    <img src="https://images.unsplash.com/photo-1690985210992-3a5f9e1aaaaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="a happy cute dog running outside ">
+                    
+                </ul>
+
+            </section>
+
+        </main>
+        <footer>
+            <div></div>
+
+        </footer>
+    </body>
+</html>
