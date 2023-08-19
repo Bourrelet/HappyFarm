@@ -160,9 +160,8 @@ br {
 }
 
 iframe {
-    position: relative;
-    margin-left: 30%;
-    margin-right: 30%;
+    display: block;
+    margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
     
